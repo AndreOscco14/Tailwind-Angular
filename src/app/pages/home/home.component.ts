@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 image: string;
+  image2: string;
 
 constructor(){
-  this.image= '/assets/images/Bonos3.png';
+  this.image= '/assets/images/Bonos3-cuadrada.png';
+  this.image2= '/assets/images/Bonos3.png';
 }
 
 }
