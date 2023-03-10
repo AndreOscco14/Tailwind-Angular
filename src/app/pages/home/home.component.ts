@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+image: string;
+
+constructor(){
+  this.image= '/assets/images/Bonos3.png';
+}
 
 }
